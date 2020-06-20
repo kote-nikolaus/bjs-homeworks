@@ -3,7 +3,7 @@
 //Задача 1
 
 function getSolutions(a, b, c) {
-  let D = b ** 2 - 4 * a * c;
+  const D = b ** 2 - 4 * a * c;
 
   if (D < 0) {
     return {
